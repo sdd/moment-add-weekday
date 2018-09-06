@@ -37,7 +37,7 @@
     var wholeWeeksToAdd = Math.floor(Math.abs(offset) / 5) * Math.sign(offset);
     var surplusWeekdaysToAdd = offset % 5;
 
-    let weekendWrapAdjustment = 0;
+    var weekendWrapAdjustment = 0;
     if (surplusWeekdaysToAdd !== 0) {
         if (dayOfWeek + surplusWeekdaysToAdd < 1) {
 
